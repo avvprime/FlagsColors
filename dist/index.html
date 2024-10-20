@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors: Flags</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+    <div id="gameplay-scene" class="ease-3 show">
+        <div class="container">
+
+            <canvas></canvas>
+
+            <div class="time-progress-bar-container">
+                <div class="bar"></div>
+            </div>
+        
+            <button id="flag-reveal-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M11.296 1.924c.24-.656 1.168-.656 1.408 0l.717 1.958a11.25 11.25 0 0 0 6.697 6.697l1.958.717c.657.24.657 1.168 0 1.408l-1.958.717a11.25 11.25 0 0 0-6.697 6.697l-.717 1.958c-.24.657-1.168.657-1.408 0l-.717-1.958a11.25 11.25 0 0 0-6.697-6.697l-1.958-.717c-.656-.24-.656-1.168 0-1.408l1.958-.717a11.25 11.25 0 0 0 6.697-6.697l.717-1.958Z"></path></svg>
+            </button>
+        
+            <div class="flag-container">
+                <div class="country-name-container">TÜRKİYE</div>
+                <div class="svg-container ease-3">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewbox="0 0 1200 800" width="1200" height="800">
+                        <rect class="rect" width="1200" height="800" fill="#dddddd"/>
+                        <circle class="circle" cx="425" cy="400" r="200" style="fill: #212121"/>
+                        <circle class="circle" cx="475" cy="400" r="160" style="fill: #dddddd"/>
+                        <polygon style="fill: #212121;"
+                           points="583.334,400 764.235,458.779 652.431,304.894 652.431,495.106 764.235,341.221"/>
+                    </svg>
+                </div>
+            </div>
+        
+        
+            <div class="flag-button-container">
+                <button class="fb"></button>
+                <button class="fb"></button>
+                <button class="fb"></button>
+            </div>
+        
+            <div class="color-button-container">
+                <button class="cb" style="background-color: red;"></button>
+                <button class="cb" style="background-color: white;"></button>
+            </div>
+        
+            <button id="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" stroke="#ffffff"><path fill="#ffffff" d="M3.75 2h5.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 9.25 22h-5.5A1.75 1.75 0 0 1 2 20.25V3.75C2 2.784 2.784 2 3.75 2Zm11 0h5.5c.966 0 1.75.784 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22h-5.5A1.75 1.75 0 0 1 13 20.25V3.75c0-.966.784-1.75 1.75-1.75ZM3.5 3.75v16.5c0 .138.112.25.25.25h5.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.25.25 0 0 0-.25.25Zm11 0v16.5c0 .138.112.25.25.25h5.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.25.25 0 0 0-.25.25Z"></path></svg>
+            </button>
+
+            <button id="pass-with-ad-btn">
+                Pass
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"></path><path d="M9 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842L9.77 16.005a.5.5 0 0 1-.77-.42Z"></path></svg>
+            </button>
+            
+        </div> <!-- container end -->
+    </div> <!-- game play scene end -->
+
+    <div id="tutorial-elements">
+        <div class="container">
+            <svg id="tutorial-hand" fill="#ffffff" height="60px" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+                <g transform="translate(1 1)">
+                    <g>
+                        <path d="M468.333,169.789H274.627c32.427-18.773,49.493-63.147,36.693-95.573c-0.853-4.267-3.413-7.68-5.973-11.947
+                            c-8.533-12.8-19.627-11.947-23.04-11.947c-5.12-0.853-5.973,0-19.627,11.093c-17.067,15.36-52.907,46.933-88.747,66.56
+                            c-1.707,1.707-39.253,24.747-67.413,50.347H84.333C37.4,178.323-1,216.723-1,263.656v85.333c0,36.693,30.72,75.093,66.56,83.627
+                            c10.24,2.56,17.92,5.12,21.333,8.533c10.24,8.533,34.133,18.773,65.707,18.773h136.533c23.893,0,42.667-18.773,42.667-42.667
+                            c0-9.387-3.413-18.773-8.533-25.6h8.533c23.893,0,42.667-18.773,42.667-42.667c0-9.387-3.413-18.773-8.533-25.6
+                            c23.893,0,42.667-18.773,42.667-42.667c0-9.387-3.413-18.773-8.533-25.6h68.267c23.893,0,42.667-18.773,42.667-42.667
+                            S492.227,169.789,468.333,169.789z M468.333,238.056H331.8H229.4c-5.12,0-8.533,3.413-8.533,8.533s3.413,8.533,8.533,8.533h102.4
+                            h34.133c14.507,0,25.6,11.093,25.6,25.6c0,14.507-11.093,25.6-25.6,25.6H331.8h-93.867c-5.12,0-8.533,3.413-8.533,8.533
+                            s3.413,8.533,8.533,8.533H331.8c14.507,0,25.6,11.093,25.6,25.6c0,14.507-11.093,25.6-25.6,25.6h-42.667H229.4
+                            c-5.12,0-8.533,3.413-8.533,8.533s3.413,8.533,8.533,8.533h59.733c14.507,0,25.6,11.093,25.6,25.6c0,14.507-11.093,25.6-25.6,25.6
+                            H152.6c-23.762,0-40.649-6.867-49.268-12.166c-4.656-5.402-6.964-14.246-10.466-27.087l-0.853-5.12
+                            c-0.853-4.267-5.973-6.827-10.24-5.973s-6.827,5.973-5.973,10.24l1.707,4.267c1.036,3.798,2.039,7.594,3.146,11.293
+                            c-3.346-1.058-6.967-1.988-10.826-2.76c-29.013-5.973-53.76-37.547-53.76-66.56v-85.333c0-37.547,30.72-68.267,68.267-68.267h8.36
+                            c-1.438,1.946-2.809,3.919-4.093,5.973c-3.413,5.12-5.973,9.387-10.24,14.507c-3.413,3.413-2.56,8.533,0.853,11.947
+                            c1.707,0.853,3.413,1.707,5.12,1.707c2.56,0,5.12-0.853,6.827-3.413c5.12-5.12,8.533-10.24,11.947-15.36
+                            c4.224-5.914,8.451-11.828,13.504-17.742c26.455-25.358,65.856-49.671,65.856-49.671c36.693-20.48,73.387-52.907,91.307-68.267
+                            c3.413-2.56,7.68-5.973,9.387-7.68c2.56,0,4.267,0,7.68,5.12c1.707,3.413,3.413,5.973,4.267,8.533
+                            c7.68,22.187-2.56,58.88-30.72,75.093l-21.317,14.211c-0.293,0.084-0.583,0.181-0.87,0.295l-17.067,8.533
+                            c-3.413,1.707-5.12,6.827-3.413,11.093s9.387,5.12,11.093,3.413l13.653-6.827h221.867c14.507,0,25.6,11.093,25.6,25.6
+                            C493.933,226.963,482.84,238.056,468.333,238.056z"/>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+
+    <div id="menu-scene" class="show"> <!-- menu scene start   -->
+        <div class="container">
+            <div class="title-container">
+                <span class="i-1">Flags</span>
+                <div></div>
+                <span class="i-2">C</span>
+                <span class="i-3">o</span>
+                <span class="i-4">l</span>
+                <span class="i-5">o</span>
+                <span class="i-6">r</span>
+                <span class="i-7">s</span>
+            </div>
+        
+            <div class="menu-container">
+                <ul class="options">
+                    <li><button class="ease-1" id="play-btn">Play</button></li>
+                    <li><button class="ease-1" id="options-btn">Options</button></li>
+                </ul>
+        
+            </div>
+        
+            <div class="options-container">
+                <ul class="options">
+                    <li><button class="ease-1" id="sound-btn">Sound On</button></li>
+                    <li><button class="ease-1" id="reset-btn">Reset</button></li>
+                    <li><button class="ease-1" id="options-back-btn">Back</button></li>   
+                </ul>
+            </div>
+        </div> <!-- container end-->
+    </div> <!-- menu scene end -->
+
+    <div id="win-scene" class="ease-1"><!-- win scene start -->
+        <div class="tick-icon" class="ease-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" width="120" height="120"><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"></path></svg>
+        </div>
+        <div class="title">SUCCESS!</div>
+        <button id="win-scene-next-btn" class="ease-1">NEXT</button>
+    </div> <!-- win scene end -->
+    
+
+    <div id="fail-scene" class="ease-1"> <!-- fail scene start -->
+        <div class="title">TIME OUT!</div>
+        <ul>
+            <li><button class="ease-1" id="restart-btn">RESTART</button></li>
+            <li><button class="ease-1" id="fail-scene-menu-btn">MENU</button></li>
+        </ul>
+    </div> <!-- fail scene end -->
+
+
+    <div id="finish-scene" class="ease-1"><!-- finish scene start -->
+        <div class="title">FINISH!</div>
+        <p>Thank you for playing. Well played.</p>
+        <button id="finish-scene-menu-btn" class="ease-1">MENU</button>
+    </div> <!-- finish scene end -->
+
+    <div id="confirm-popup" class="ease-1">
+        <div class="title">Are you sure?</div>
+        <div class="buttons">
+            <button class="yes">Yes</button>
+            <button class="no">No</button>
+        </div>
+    </div>
+
+    <div id="flag-reveal-popup" class="ease-1">
+        <div class="time-bar"></div>
+        <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewbox="0 0 1200 800" width="1200" height="800">
+                <rect class="rect" width="1200" height="800" fill="#E30A17"/>
+                <circle class="circle" cx="425" cy="400" r="200" style="fill: #ffffff"/>
+                <circle class="circle" cx="475" cy="400" r="160" style="fill: #E30A17"/>
+                <polygon style="fill: #ffffff;"
+                   points="583.334,400 764.235,458.779 652.431,304.894 652.431,495.106 764.235,341.221"/>
+            </svg>
+        </div>
+    </div>
+
+    <div id="transition-scene">
+        <div class="container">
+
+        </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
