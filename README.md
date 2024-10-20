@@ -1,4 +1,4 @@
-![](https://github.com/avvprime/FlagsColors/edit/main/flagscolors-gameplay.gif)
+![](https://github.com/avvprime/FlagsColors/blob/main/flagscolors-gameplay.gif)
 
 
 Match buttons with colored buttons in order to adjust different parts of flags and match true color of flags.
