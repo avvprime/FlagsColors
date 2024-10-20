@@ -9,5 +9,5 @@ Match buttons with colored buttons in order to adjust different parts of flags a
 - Start running a local server
 - You're ready to go
 
-  You can play it here:
+  You can play it here: 
   https://avvthegray.itch.io/flags-colors
