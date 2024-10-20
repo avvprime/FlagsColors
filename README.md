@@ -1,3 +1,6 @@
+![](https://github.com/Repository_Name/GIF_Name.gif'iniz)
+
+
 Match buttons with colored buttons in order to adjust different parts of flags and match true color of flags.
 
 - Download files into a folder
