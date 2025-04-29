@@ -19,4 +19,5 @@ Match buttons with colored buttons in order to adjust different parts of flags a
 > 📌 You are free to **read, study, and learn** from this code for **non-commercial, personal, or educational use only**.  
 > ❌ **Commercial use, redistribution, or modification** is **not allowed** without explicit permission.  
 >  
-> See the [LICENSE](./LICENSE) file for full details.
+
+ See the [LICENSE](./LICENSE) file for full details.
