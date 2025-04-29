@@ -11,3 +11,12 @@ Match buttons with colored buttons in order to adjust different parts of flags a
 
   You can play it here: 
   https://avvthegray.itch.io/flags-colors
+
+## 📜 License
+
+![License: Non-Commercial](https://img.shields.io/badge/license-Non--Commercial-lightgrey)
+
+> 📌 You are free to **read, study, and learn** from this code for **non-commercial, personal, or educational use only**.  
+> ❌ **Commercial use, redistribution, or modification** is **not allowed** without explicit permission.  
+>  
+> See the [LICENSE](./LICENSE) file for full details.
